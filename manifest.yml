@@ -1,0 +1,8 @@
+---
+applications:
+- name: dummy-api
+  path: ./target/dummy-api-1.0-SNAPSHOT.jar
+  memory: 1024MB
+  instances: 1
+  host: dumdum
+  random-route: true
